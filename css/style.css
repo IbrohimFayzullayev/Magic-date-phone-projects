@@ -1,0 +1,20 @@
+/* Discover css started  */
+.container2 {
+  max-width: 35rem;
+  margin: 3.6rem auto;
+}
+.plus_back {
+  justify-content: space-between;
+  font-size: 2.6rem;
+}
+.plus_back i {
+  color: #000;
+}
+.disvr_title {
+  justify-content: space-around;
+  font-size: 1.8rem;
+  margin: 2.4rem 0;
+}
+.discover_txt {
+  color: #e24e59;
+}
