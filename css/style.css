@@ -18,3 +18,75 @@
 .discover_txt {
   color: #e24e59;
 }
+.dcvr_box_1 {
+  background-image: url(/img/ted.png);
+}
+.dcvr_box_2 {
+  background-image: url(/img/Gunther.png);
+}
+.dcvr_box_3 {
+  background-image: url(/img/Gunther.png);
+}
+.dcvr_box_4 {
+  background-image: url(/img/2f2.png);
+}
+.dcvr_box_5 {
+  background-image: url(/img/0.png);
+}
+.dcvr_box_6 {
+  background-image: url(/img/23.png);
+}
+.discover_box {
+  background-size: cover;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border-radius: 1.5rem;
+}
+.dcv_box_text {
+  padding: 1.2rem;
+  background-color: rgba(0, 0, 0, 0.521);
+  color: #fff;
+}
+.dcv_name {
+  font-size: 2rem;
+}
+.dcv_text {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.377);
+  margin: 0 0;
+}
+.discover_gallery {
+  gap: 2rem !important;
+}
+.km_txt {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: flex-end;
+  color: rgba(255, 255, 255, 0.377);
+}
+.dcv_icons {
+  font-size: 2.6rem;
+  gap: 3rem;
+  justify-content: center;
+  z-index: 1;
+}
+.dcv_footer {
+  padding: 2.4rem 0;
+  background-color: #fff;
+  margin-top: -7.2rem;
+  z-index: 1;
+}
+footer {
+  background-color: #fff;
+  z-index: 1;
+}
+.dcvr_box_6,
+.dcvr_box_5 {
+  z-index: -1;
+}
+.dcv_icons :nth-child(4) {
+  color: #e24e59;
+}
+/*  Discover page css code finished */
