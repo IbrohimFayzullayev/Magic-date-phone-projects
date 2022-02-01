@@ -270,3 +270,21 @@ footer {
   box-shadow: 0 0 0.5rem #df969b;
   border-radius: 2rem;
 }
+
+/*  settings starts */
+.settings {
+  margin: 2.4rem 0;
+  gap: 2.4rem;
+  font-size: 2.2rem;
+}
+.setting_box {
+  display: flex;
+  gap: 1.5rem;
+}
+.setting_box a {
+  text-decoration: none;
+}
+.setting_box a,
+.setting_box i {
+  color: rgba(0, 0, 0, 0.774);
+}
