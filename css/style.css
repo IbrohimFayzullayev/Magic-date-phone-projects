@@ -90,3 +90,64 @@ footer {
   color: #e24e59;
 }
 /*  Discover page css code finished */
+
+/* Discover profile css starts */
+.dcvr_prof_img {
+  background-image: url(/img/ted.png);
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1.6rem;
+  padding: 1.6rem;
+  border-radius: 3.6rem;
+}
+.ted_name {
+  color: #fff;
+  font-size: 3.2rem;
+}
+.dcvr_list {
+  display: flex;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+.dcvr_list p {
+  font-weight: 600;
+  background-color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 1.6rem;
+}
+.dcv_prof_icons {
+  font-size: 3rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  gap: 1.4rem;
+}
+.dcv_prof_icons i {
+  padding: 1.2rem;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -5rem;
+  box-shadow: 0 0 0.5rem #e24e59;
+}
+.dcv_prof_icons i:first-child {
+  background-color: green;
+}
+.dcv_prof_icons i:nth-child(2) {
+  background-color: #fff;
+  color: #e24e59;
+}
+.dcv_prof_icons i:nth-child(3) {
+  background-color: #e24e59;
+}
+.dcvr_prof_text {
+  margin-top: 6rem;
+}
+/*  Discover profile css code finished */
