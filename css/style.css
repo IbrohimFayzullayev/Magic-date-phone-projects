@@ -151,3 +151,59 @@ footer {
   margin-top: 6rem;
 }
 /*  Discover profile css code finished */
+
+/*  Edit profile starts */
+.top_icons {
+  font-size: 2.4rem;
+  justify-content: space-between;
+  margin-bottom: 1.4rem;
+}
+.top_icons a {
+  text-decoration: none;
+}
+.done {
+  color: #e24e59;
+}
+.back_icon {
+  color: #000;
+}
+.h2 {
+  font-size: 2.6rem;
+}
+.ed_profile {
+  background-color: #fffbf4;
+  margin-top: 3rem;
+  padding: 4rem 0;
+}
+.ed_profile_img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.ed_profile_img img {
+  width: 15rem;
+}
+.edit_icon {
+  position: absolute;
+  color: #e24e59;
+  background-color: #fff;
+  box-shadow: 0 0 0.5rem #ee8a91;
+  padding: 1rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  width: 2.2rem;
+  height: 2.2rem;
+  right: 9rem;
+  bottom: 2rem;
+}
+.edit_names {
+  gap: 3rem;
+  margin-top: 6rem;
+}
+.ed_name_text {
+  font-size: 1.8rem;
+  justify-content: space-between;
+}
+.ed_footer {
+  margin-top: 2rem;
+}
