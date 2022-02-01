@@ -243,3 +243,30 @@ footer {
   background-color: #f3bec2;
   border-radius: 1.5rem;
 }
+
+/* profile picture starts */
+.profile_pictures {
+  margin: 1.6rem 0 3rem 0;
+  gap: 2rem;
+  overflow-x: hidden;
+}
+.pr_pic_1 {
+  position: relative;
+}
+.prof_edit {
+  right: -1.5rem;
+  bottom: 0;
+}
+.stickers {
+  gap: 1rem !important;
+  max-width: 100%;
+  margin-top: 3rem;
+}
+.sticker_img {
+  max-width: 10rem;
+}
+.sticker_img img {
+  max-width: 100%;
+  box-shadow: 0 0 0.5rem #df969b;
+  border-radius: 2rem;
+}
