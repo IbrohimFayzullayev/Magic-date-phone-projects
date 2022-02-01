@@ -207,3 +207,39 @@ footer {
 .ed_footer {
   margin-top: 2rem;
 }
+
+/* My interests starts */
+.interest_title {
+  font-size: 3.2rem;
+}
+.my_interests {
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  margin: 4rem 1rem 8rem 1rem;
+}
+.my_interests p {
+  font-weight: bold;
+  font-size: 2.2rem;
+  padding: 0.8rem 1.6rem;
+  border: 0.01rem solid #ee8a91;
+  border-radius: 1.5rem;
+}
+.my_interests p:nth-child(3),
+.my_interests p:nth-child(6),
+.my_interests p:nth-child(11),
+.my_interests p:last-child {
+  color: #fff;
+  background-color: #e24e59;
+}
+.continue_btn {
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: #e24e59;
+  font-weight: bold;
+  max-width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  background-color: #f3bec2;
+  border-radius: 1.5rem;
+}
