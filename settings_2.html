@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings-2</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container ctn_settings_2">
+      <div class="top_icons flex">
+        <a class="back_icon" href="#">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+        <a class="done" href="#">Done</a>
+      </div>
+      <h2 class="title h2">Settings</h2>
+      <div class="settings_2">
+        <div class="location_box sett_box flex flex_between">
+          <h3>Location</h3>
+          <p>
+            Cacilia Champan 711-2880 Nulla St. <br />
+            Mankato Mississipi 96522
+          </p>
+        </div>
+        <div class="sett_box">
+          <div class="flex flex_between">
+            <h3>Maximum distance</h3>
+            <p>80 km</p>
+          </div>
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="myRange"
+            />
+          </div>
+        </div>
+        <div class="sett_box flex flex_between">
+          <h3>Show me for</h3>
+          <p>male</p>
+        </div>
+        <div class="sett_box">
+          <div class="flex flex_between">
+            <h3>Age range</h3>
+            <p>18-65</p>
+          </div>
+          <div class="slidecontainer">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="myRange"
+            />
+          </div>
+        </div>
+        <div class="sett_box flex flex_between">
+          <h3>Global</h3>
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider_2 round"></span>
+          </label>
+        </div>
+        <div class="sett_box">
+          <p class="setting_long_text">
+            The global mode turns on as soon as the profiles in this locations
+            run out
+          </p>
+          <div class="flex flex_between">
+            <h3>Show me with profile</h3>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider_2 round"></span>
+            </label>
+          </div>
+        </div>
+        <div class="sett_box">
+          <div class="flex flex_between">
+            <h3>Show me only with sticker</h3>
+            <label class="switch">
+              <input type="checkbox" checked />
+              <span class="slider_2 round"></span>
+            </label>
+          </div>
+          <p class="setting_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+            suscipit sunt! Voluptatem fugit voluptas, eos ipsa perspiciatis
+          </p>
+        </div>
+        <div class="sett_box all_settings flex flex_between">
+          <h3>Profile management</h3>
+          <p>All settings <i class="fas fa-chevron-right"></i></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
