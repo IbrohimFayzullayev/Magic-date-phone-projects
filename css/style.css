@@ -19,22 +19,22 @@
   color: #e24e59;
 }
 .dcvr_box_1 {
-  background-image: url(/img/ted.png);
+  background-image: url(img/ted.png);
 }
 .dcvr_box_2 {
-  background-image: url(/img/Gunther.png);
+  background-image: url(img/Gunther.png);
 }
 .dcvr_box_3 {
-  background-image: url(/img/Gunther.png);
+  background-image: url(img/Gunther.png);
 }
 .dcvr_box_4 {
-  background-image: url(/img/2f2.png);
+  background-image: url(img/2f2.png);
 }
 .dcvr_box_5 {
-  background-image: url(/img/0.png);
+  background-image: url(img/0.png);
 }
 .dcvr_box_6 {
-  background-image: url(/img/23.png);
+  background-image: url(img/23.png);
 }
 .discover_box {
   background-size: cover;
@@ -93,7 +93,7 @@ footer {
 
 /* Discover profile css starts */
 .dcvr_prof_img {
-  background-image: url(/img/ted.png);
+  background-image: url(img/ted.png);
   background-size: cover;
   height: 60vh;
   display: flex;
