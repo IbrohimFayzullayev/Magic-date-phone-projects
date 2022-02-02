@@ -22,6 +22,28 @@
     />
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <form class="form_sign_up flex_column flex" action="form">
+        <label class="form_label" for="name">Enter your name</label>
+        <input class="name_input input" type="name" placeholder="Monica" />
+        <label class="form_label" for="name">Enter your name</label>
+        <div class="date_inputs grid grid_3_cols">
+          <input class="input" type="number" placeholder="1955" />
+          <input class="input" type="number" placeholder="05" />
+          <input class="input" type="number" placeholder="15" />
+        </div>
+        <label class="form_label" for="name">Choose your country</label>
+        <select class="input form_select" name="country" id="country">
+          <option value="usa">USA</option>
+          <option value="uzb">UZB</option>
+          <option value="rus">RUS</option>
+        </select>
+        <div class="gender_btns flex flex_between">
+          <button class="btn_radio" type="button">Male</button>
+          <button class="btn_radio" type="button">Female</button>
+        </div>
+        <a class="continue_btn" href="profile_pic.html">Continue</a>
+      </form>
+    </div>
   </body>
 </html>

@@ -474,3 +474,55 @@ input:checked + .slider_2:before {
 }
 
 /*  Sign up finished */
+
+/* Sign up-2 starts */
+.form_sign_up {
+  gap: 1.2rem;
+  font-size: 2rem;
+}
+.input,
+.btn_radio {
+  padding: 2rem 0;
+  border-radius: 1.2rem;
+  border: 0.01rem solid #e24e59;
+  box-shadow: 0 0 0.3rem #df969b;
+}
+.name_input {
+  padding-left: 2rem;
+}
+.input::placeholder {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.date_inputs input {
+  max-width: 9rem;
+}
+.date_inputs input::placeholder {
+  text-align: center;
+}
+.form_label {
+  margin-top: 3rem;
+}
+.form_select {
+  font-size: 2rem;
+  padding: 2rem 1rem;
+}
+.btn_radio {
+  width: 50%;
+  box-sizing: border-box;
+  background-color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e24e59;
+}
+.gender_btns {
+  gap: 2rem;
+  margin: 3rem 0 5rem 0;
+}
+.btn_radio:hover {
+  background-color: #e24e59;
+  color: #fff;
+}
+.continue_btn {
+  padding: 2rem 0;
+}
