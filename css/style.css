@@ -526,3 +526,61 @@ input:checked + .slider_2:before {
 .continue_btn {
   padding: 2rem 0;
 }
+.top_stories {
+  gap: 1.5rem;
+  font-size: 2rem;
+  overflow-x: hidden;
+  padding: 3rem 0 3rem 0;
+  background-color: #fffbf4;
+}
+.story_box img {
+  border: 0.4rem solid #e24e59;
+  border-radius: 3rem;
+  padding: 0;
+}
+.story_box {
+  position: relative;
+}
+.story_h {
+  position: absolute;
+  bottom: 1.8em;
+  right: 0.5rem;
+  background-color: #e24e59;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: 0 0.4rem;
+}
+.story_text {
+  text-align: center;
+}
+.edit {
+  font-size: 2.4rem;
+  font-weight: bold;
+  justify-content: flex-end;
+  margin: 2rem 0;
+}
+.people {
+  gap: 1rem;
+  font-size: 1.6rem;
+}
+.person_name {
+  margin-left: 1rem;
+}
+.per_num {
+  background-color: #e24e59;
+  color: #fff;
+  font-weight: bold;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  pad: 0.5rem;
+  border-radius: 50%;
+}
+.story_footer {
+  margin-top: 0rem;
+  z-index: 1;
+}
